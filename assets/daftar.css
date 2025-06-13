@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.container{
+    width: 400px;
+    height: max-content;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.input-container{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.input-container input, .input-container select{
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.input-container select {
+    width: 100%;
+    padding: 12px 10px;  
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+.input-container select option {
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.input-container label{
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.input-container i {
+   position: absolute;
+   left: 10px;
+   top: 37px;
+   color: #403d3d;
+   font-size: 16px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #2c3e50;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover{
+    background: #4ca3af;
+    transform: scale(1.01);
+}
+.submit-btn i {
+    margin-right: 5px;
+}
+
+
+.link-span{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link-span a {
+    color: #4ca3af;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link-span a:hover {
+    text-decoration: underline;
+}
